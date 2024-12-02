@@ -1,0 +1,44 @@
+{
+  "name": "croncool",
+  "version": "0.0.0",
+  "description": "CronCool cli to manage cron jobs and health checks from cron.cool",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "develop": "node index.js",
+    "publish": "npm publish --access public"
+  },
+  "keywords": [
+    "multi-language",
+    "multilingual",
+    "translate",
+    "localize",
+    "internationalize",
+    "translation",
+    "i18n"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/croncool/croncool-cli.git"
+  },
+  "author": "CronCool",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/croncool/croncool-cli/issues"
+  },
+  "homepage": "https://www.cron.cool/",
+  "bin": {
+    "croncool": "./index.js"
+  },
+  "dependencies": {
+    "@croncool/croncool-js-client": "0.0.2",
+    "commander": "8.3.0",
+    "fs-extra": "10.1.0",
+    "inquirer": "8.2.5",
+    "node-localstorage": "2.2.1",
+    "xml2js": "0.4.23"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

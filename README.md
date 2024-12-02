@@ -1,2 +1,3 @@
-# croncool-cli
-croncool cli to manage cron jobs and health checks from cron.cool
+# croncool
+
+[croncool](https://www.cron.cool/) CLI to manage cron jobs and health checks
